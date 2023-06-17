@@ -1,0 +1,3 @@
+C:/Users/simli/Desktop/Grafi/cmake-build-debug/CMakeFiles/Grafi.dir
+C:/Users/simli/Desktop/Grafi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/simli/Desktop/Grafi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

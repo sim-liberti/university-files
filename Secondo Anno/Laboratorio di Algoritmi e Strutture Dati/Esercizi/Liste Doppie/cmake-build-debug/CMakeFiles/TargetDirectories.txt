@@ -1,0 +1,3 @@
+C:/Users/simli/Desktop/Liste Doppie/cmake-build-debug/CMakeFiles/Liste_Doppie.dir
+C:/Users/simli/Desktop/Liste Doppie/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/simli/Desktop/Liste Doppie/cmake-build-debug/CMakeFiles/rebuild_cache.dir

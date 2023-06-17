@@ -1,0 +1,12 @@
+# ninja log v5
+2	94	7086576205620511	CMakeFiles/Alberi_Binari.dir/main.c.obj	588e3f1dc607e458
+94	191	7086576206561354	Alberi_Binari.exe	33df977ea4e2e9bd
+6	84	7086536061683864	CMakeFiles/Alberi_Binari.dir/BTreeLibrary.c.obj	22b8e5f48856f758
+1	107	7086943622264193	build.ninja	92d79ad091890d40
+0	111	7086943622264193	build.ninja	92d79ad091890d40
+6	160	7086943624133635	CMakeFiles/Alberi_Binari.dir/BTreeLibrary.c.obj	22b8e5f48856f758
+1	161	7086943624143644	CMakeFiles/Alberi_Binari.dir/main.c.obj	588e3f1dc607e458
+161	403	7086943626523402	Alberi_Binari.exe	12ea75be1fb0f9e3
+2	96	7086955785490731	CMakeFiles/Alberi_Binari.dir/main.c.obj	588e3f1dc607e458
+7	107	7086955785606888	CMakeFiles/Alberi_Binari.dir/BTreeLibrary.c.obj	22b8e5f48856f758
+107	215	7086955786629751	Alberi_Binari.exe	12ea75be1fb0f9e3

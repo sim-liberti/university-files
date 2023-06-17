@@ -1,0 +1,3 @@
+C:/Users/simli/Desktop/Alberi Binari/cmake-build-debug/CMakeFiles/Alberi_Binari.dir
+C:/Users/simli/Desktop/Alberi Binari/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/simli/Desktop/Alberi Binari/cmake-build-debug/CMakeFiles/rebuild_cache.dir

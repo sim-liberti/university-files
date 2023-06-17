@@ -1,0 +1,69 @@
+Firme candidate:
+
+1) x.f( (A)x, y,   z):
+   B      A   A[]  B
+
+{ f(A, A[], B) (da A), f(A, Object, B) (da A) }
+
+(Early: f(A, A[], B))
+
+2) z.f(new C(), y,   z):
+   C     C     A[]  C
+
+{ a) f(A, A[], C) (da C),
+  b) f(B, A[], B) (da B),
+  c) f(A, A[], B) (da A),
+  d) f(A, Object, B) (da A) }
+
+Early: errore di compilazione
+
+
+3) beta.f(gamma, array, gamma):
+    B       C      A[]     C
+
+{ f(B, A[], B), f(A, A[], B), f(A, Object, B) }
+
+Early: f(B, A[], B)
+
+4) gamma.f(array[0], null, beta):
+     C       A       null    B
+
+{ f(A, B[], B), f(A, A[], B), f(A, Object, B) }
+
+Early: f(A, B[], B)
+
+
+Output:
+B1:A1
+...
+
+
+Richiami  di Visibilità:
+
+private
+protected 
+default (package protected)
+public
+
+Esempio:
+
+class A {
+   private int n;
+   protected double x;
+
+   public void f(A other) {
+          int n = 7; // questo rende le due righe successive non equivalenti
+   	  System.out.println(this.n);
+    	  System.out.println(n);
+     	  System.out.println(other.n);
+   }
+}
+
+
+class B extends A {
+      public void g(A other, B another) {
+      	     this.x = 0;  // OK
+	     other.x = 0; // Errore di compilazione
+	     another.x = 0; // OK
+      }
+}
