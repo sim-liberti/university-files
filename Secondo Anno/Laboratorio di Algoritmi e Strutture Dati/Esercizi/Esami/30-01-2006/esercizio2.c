@@ -45,55 +45,60 @@ void stampa_lista(struct elemento *lista){
         temp = temp->next;
     }
 }
-void togli_dispari_pari(struct elemento *l, int a){
-    struct elemento *temp = NULL;
-    if (l != NULL)
-        temp = l;
+void togli_dispari_pari(struct elemento **l, int a){
+    struct elemento *head = NULL;
+    if (*l != NULL) {
+        head = *l;
         switch (a) {
             case 0:
                 /* Togli numeri pari */
-                while(l != NULL){
-                    if (l->inf % 2 == 0){
-                        if (l->prev == NULL){
-                            l = temp->next;
-                            l->prev = NULL;
-                            free(temp);
+                while (*l != NULL) {
+                    if ((*l)->inf % 2 == 0) {
+                        if ((*l)->prev == NULL) {
+                            *l = (*l)->next;
+                            (*l)->prev = NULL;
+                            head = *l;
+                        } else if ((*l)->next == NULL) {
+                            (*l)->prev->next = NULL;
+                            *l = NULL;
+                        } else {
+                            (*l)->next->prev = (*l)->prev;
+                            (*l)->prev->next = (*l)->next;
+                            *l = (*l)->next;
                         }
-                        else if (l->next == NULL){
-                            l->prev->next = NULL;
-                            l = NULL;
-                            free(l);
-                        }
-                        else{
-                            l->next->prev = l->prev;
-                            l->prev->next = l->next;
-                            l = l->next;
-                        }
-                    }
-                    else l = l->next;
+                    } else *l = (*l)->next;
                 }
             case 1:
                 /* Togli numeri dispari */
-                while(l != NULL){
-                    if (l->inf % 2 != 0){
-                        if (l->prev == NULL){
-                            temp = l->next;
-                            temp->prev = NULL;
-                            free(l);
-                        }
-                        else if (l->next == NULL){
+                while (*l != NULL) {
+                    if ((*l)->inf % 2 != 0) {
+                        if ((*l)->prev == NULL) {
+                            *l = (*l)->next;
+                            (*l)->prev = NULL;
+                            head = *l;
+                        } else if ((*l)->next == NULL) {
+                            (*l)->prev->next = NULL;
                             l = NULL;
-                            free(l);
+                        } else {
+                            (*l)->next->prev = (*l)->prev;
+                            (*l)->prev->next = (*l)->next;
+                            *l = (*l)->next;
                         }
-                        else{
-                            l->next->prev = l->prev;
-                            l->prev->next = l->next;
-                            l = l->next;
-                        }
-                    }
-                    else l = l->next;
+                    } else *l = (*l)->next;
                 }
             default:
                 break;
         }
+    }
+    *l = head;
+}
+struct elemento *interleaving(struct elemento *l1, struct elemento *l2){
+    static struct elemento *temp = NULL;
+    if (l1 == NULL && l2 == NULL) return temp;
+    if (l1 == NULL && l2 != NULL){
+        temp = l2;
+
+    } else if (l1 != NULL && l2 == NULL){
+
+    }
 }

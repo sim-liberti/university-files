@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/simli/Desktop/Esami/30-01-2006/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/simli/Desktop/University$ Files/Secondo$ Anno/Laboratorio$ di$ Algoritmi$ e$ Strutture$ Dati/Esercizi/Esami/30-01-2006/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 30_01_2006
 
@@ -49,14 +49,14 @@ cmake_ninja_workdir = C$:/Users/simli/Desktop/Esami/30-01-2006/cmake-build-debug
 
 build cmake_object_order_depends_target_30_01_2006: phony || CMakeFiles/30_01_2006.dir
 
-build CMakeFiles/30_01_2006.dir/main.c.obj: C_COMPILER__30_01_2006_Debug C$:/Users/simli/Desktop/Esami/30-01-2006/main.c || cmake_object_order_depends_target_30_01_2006
+build CMakeFiles/30_01_2006.dir/main.c.obj: C_COMPILER__30_01_2006_Debug C$:/Users/simli/Desktop/University$ Files/Secondo$ Anno/Laboratorio$ di$ Algoritmi$ e$ Strutture$ Dati/Esercizi/Esami/30-01-2006/main.c || cmake_object_order_depends_target_30_01_2006
   DEP_FILE = CMakeFiles\30_01_2006.dir\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\30_01_2006.dir
   OBJECT_FILE_DIR = CMakeFiles\30_01_2006.dir
 
-build CMakeFiles/30_01_2006.dir/esercizio2.c.obj: C_COMPILER__30_01_2006_Debug C$:/Users/simli/Desktop/Esami/30-01-2006/esercizio2.c || cmake_object_order_depends_target_30_01_2006
-  DEP_FILE = CMakeFiles\30_01_2006.dir\esercizio2.c.obj.d
+build CMakeFiles/30_01_2006.dir/esercizio3.c.obj: C_COMPILER__30_01_2006_Debug C$:/Users/simli/Desktop/University$ Files/Secondo$ Anno/Laboratorio$ di$ Algoritmi$ e$ Strutture$ Dati/Esercizi/Esami/30-01-2006/esercizio3.c || cmake_object_order_depends_target_30_01_2006
+  DEP_FILE = CMakeFiles\30_01_2006.dir\esercizio3.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\30_01_2006.dir
   OBJECT_FILE_DIR = CMakeFiles\30_01_2006.dir
@@ -69,7 +69,7 @@ build CMakeFiles/30_01_2006.dir/esercizio2.c.obj: C_COMPILER__30_01_2006_Debug C
 #############################################
 # Link the executable 30_01_2006.exe
 
-build 30_01_2006.exe: C_EXECUTABLE_LINKER__30_01_2006_Debug CMakeFiles/30_01_2006.dir/main.c.obj CMakeFiles/30_01_2006.dir/esercizio2.c.obj
+build 30_01_2006.exe: C_EXECUTABLE_LINKER__30_01_2006_Debug CMakeFiles/30_01_2006.dir/main.c.obj CMakeFiles/30_01_2006.dir/esercizio3.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\30_01_2006.dir
@@ -84,7 +84,7 @@ build 30_01_2006.exe: C_EXECUTABLE_LINKER__30_01_2006_Debug CMakeFiles/30_01_200
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\simli\Desktop\Esami\30-01-2006\cmake-build-debug && D:\Programs\JetBrains\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\simli\Desktop\University Files\Secondo Anno\Laboratorio di Algoritmi e Strutture Dati\Esercizi\Esami\30-01-2006\cmake-build-debug" && D:\Programs\JetBrains\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -95,7 +95,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\simli\Desktop\Esami\30-01-2006\cmake-build-debug && D:\Programs\JetBrains\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\simli\Desktop\Esami\30-01-2006 -BC:\Users\simli\Desktop\Esami\30-01-2006\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\simli\Desktop\University Files\Secondo Anno\Laboratorio di Algoritmi e Strutture Dati\Esercizi\Esami\30-01-2006\cmake-build-debug" && D:\Programs\JetBrains\apps\CLion\ch-0\231.9011.31\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"C:\Users\simli\Desktop\University Files\Secondo Anno\Laboratorio di Algoritmi e Strutture Dati\Esercizi\Esami\30-01-2006" -B"C:\Users\simli\Desktop\University Files\Secondo Anno\Laboratorio di Algoritmi e Strutture Dati\Esercizi\Esami\30-01-2006\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -113,7 +113,7 @@ build 30_01_2006: phony 30_01_2006.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/simli/Desktop/Esami/30-01-2006/cmake-build-debug
+# Folder: C:/Users/simli/Desktop/University Files/Secondo Anno/Laboratorio di Algoritmi e Strutture Dati/Esercizi/Esami/30-01-2006/cmake-build-debug
 
 build all: phony 30_01_2006.exe
 
@@ -124,14 +124,14 @@ build all: phony 30_01_2006.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/simli/Desktop/Esami/30-01-2006/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/simli/Desktop/University$ Files/Secondo$ Anno/Laboratorio$ di$ Algoritmi$ e$ Strutture$ Dati/Esercizi/Esami/30-01-2006/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/simli/Desktop/Esami/30-01-2006/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/simli/Desktop/University$ Files/Secondo$ Anno/Laboratorio$ di$ Algoritmi$ e$ Strutture$ Dati/Esercizi/Esami/30-01-2006/CMakeLists.txt CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake D$:/Programs/JetBrains/apps/CLion/ch-0/231.9011.31/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

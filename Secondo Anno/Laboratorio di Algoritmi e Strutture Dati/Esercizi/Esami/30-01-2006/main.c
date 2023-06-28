@@ -1,31 +1,29 @@
-#include <stdio.h>
+#include <time.h>
 
 //#include "esercizio1.h"
-#include "esercizio2.h"
+//#include "esercizio2.h"
+#include "esercizio3.h"
 
 int main() {
-    struct elemento *Lista_1,*Lista_2;
+    struct nodo *T1 = NULL;
+    struct nodo *T2 = NULL;
+    int val;
 
-    printf("Creazione Lista 1:\n");
-    Lista_1 = crea_lista(4);
-    printf("\nCreazione Lista 2:\n");
-    Lista_2 = crea_lista(3);
+    srand(time(NULL));
 
-    printf("\nLista 1:\n");
-    stampa_lista(Lista_1);
-    printf("\nLista 2:\n");
-    stampa_lista(Lista_2);
+    for (int i = 0; i < 10; i++){
+        //val = (rand() % (20 - 1)) + 1;
+        printf("Valore %d: ", i);
+        scanf("%d", &val);
+        tree_insert(&(T1), val);
+        //val = (rand() % (20 - 1)) + 1;
+        //tree_insert(&(T2), val);
+    }
 
-
-    togli_dispari_pari(Lista_2, 0);
-    printf("\n\nLista 2 modificata:\n");
-    stampa_lista(Lista_2);
-
-    togli_dispari_pari(Lista_1, 1);
-    printf("\n\nLista 1 modificata:\n");
-    stampa_lista(Lista_1);
-
-
+    printf("Albero 1:\n");
+    preorder_visit(T1);
+    //printf("\nAlbero 2:\n");
+    //preorder_visit(T2);
 
     return 0;
 }

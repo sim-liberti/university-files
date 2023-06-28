@@ -1,0 +1,10 @@
+# ninja log v5
+2	79	7090436652471138	CMakeFiles/12_Giugno_2019.dir/esercizio1.c.obj	317f19a45e85fcdb
+1	80	7090457790746097	CMakeFiles/12_Giugno_2019.dir/main.c.obj	587dbfe4cffa60da
+6	84	7090452067288792	CMakeFiles/12_Giugno_2019.dir/esercizio2.c.obj	6835ae715e92db31
+82	168	7090457791588260	12_Giugno_2019.exe	455f6b64b5689eb1
+1	152	7090460449383026	build.ninja	bde6cacb37e6f148
+1	146	7090460449383026	build.ninja	bde6cacb37e6f148
+2	82	7090460450819986	CMakeFiles/12_Giugno_2019.dir/esercizio2.c.obj	6835ae715e92db31
+6	86	7090460450850015	CMakeFiles/12_Giugno_2019.dir/main.c.obj	587dbfe4cffa60da
+86	183	7090460451769141	12_Giugno_2019.exe	77092effb8b97c71
